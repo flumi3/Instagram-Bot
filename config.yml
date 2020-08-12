@@ -1,0 +1,30 @@
+username: enter username here
+password: enter password here
+
+like:
+  enabled: True  # Determines whether the bot shall like posts (True or False)
+  amount: 10  # Amount of pictures to be liked
+
+comment:
+  enabled: False  # Determines whether the bot shall comment on posts (True or False)
+  percentage: 100  # How many of the liked pictures should be commented? (in %)
+  comment: enter comment text here  # Text that will be commented
+
+follow:
+  enabled: False  # Determines whether the bot shall follow the people of which it likes the posts
+  percentage: 100  # How many of the persons that we liked a post of should be followed (in %)
+
+relationship_bounds:
+  enabled: True  # Determines whether the bot shall only interact with accounts that have a specified max. followers
+  max_followers: 8500
+
+# Hashtags that decide on which posts we will like/comment
+hashtags_to_like:
+  - beautiful
+  - pretty
+
+# Hashtags of posts that we want to exclude in liking
+hashtags_to_dont_like:
+  - naked
+  - nsfw
+  - porn
