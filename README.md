@@ -1,4 +1,9 @@
 # InstagramBot
+This is a little project that I made for my brothers in order to increase the reach of their 
+Instagram business page.  
+  
+It automates the process of interacting with Instagram posts and profiles based on a 
+specified set of hashtags.
 
 ## Requirements:
 - Download the latest Python interpreter: python.org/downloads/
